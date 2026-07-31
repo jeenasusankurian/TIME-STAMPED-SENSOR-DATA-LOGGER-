@@ -1,0 +1,15 @@
+#include<LPC21xx.h>
+#include"delay.h"
+#include"Lcd.h"
+#include"types.h"
+#include"define.h"
+
+void DisplayTemp(void)
+{
+	CmdLCD(0xc8);
+	CharLCD('T');
+	CharLCD(':');
+	IntLCD(38);
+	StoreCustCharFont();
+	CharLCD('c');
+}
