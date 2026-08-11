@@ -49,6 +49,12 @@ The objective of this project is to develop a **Time-Stamped Temperature Data Lo
 - Embedded C
 - Keil uVision
 - Flash Magic
+- 
+## Block Diagram
+
+The block diagram of the **Time-Stamped Temperature Data Logger using LPC2148** is shown below.
+
+![Block Diagram](Block_Diagram.jpeg)
 
 ## Project Modules
 
